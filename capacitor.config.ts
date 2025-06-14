@@ -4,6 +4,14 @@ const config: CapacitorConfig = {
   appId: 'com.himeras.materialmanagement',
   appName: 'material-management-app',
   webDir: 'dist',
+  android: {
+
+    allowMixedContent: true, // Allow mixed content for development
+    backgroundColor: "#ffffff" // Set a default background color
+  },
+  ios: {
+    contentInset: "always"
+  },
   plugins: {
     BarcodeScanner: {
       // Optional: Configure Google Barcode Scanner options here

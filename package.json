@@ -7,10 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "cap:init": "npx cap init \"Manager Materiale\" \"com.example.materialmanager\"",
-    "cap:add:android": "npx cap add android",
-    "cap:sync": "npx cap sync",
-    "cap:open:android": "npx cap open android"
+    "android": "npx cap run android"
   },
   "dependencies": {
     "@capacitor-mlkit/barcode-scanning": "^7.2.1",
